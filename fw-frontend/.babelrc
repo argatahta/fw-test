@@ -1,0 +1,15 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+        // ["styled-components", { "ssr": true }],
+        [
+            "styless",
+            {
+                "import": "./node_modules/antd/lib/style/themes/default.less",
+                "lessOptions": {
+                    "javascriptEnabled": true
+                }
+            }
+        ]
+    ]
+  }

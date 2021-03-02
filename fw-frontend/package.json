@@ -1,0 +1,28 @@
+{
+  "name": "fw-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^4.12.3",
+    "axios": "^0.21.1",
+    "dynamic-antd-theme": "^0.8.1",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-color": "^2.19.3",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "latest",
+    "babel-plugin-styless": "^1.4.25"
+  }
+}
